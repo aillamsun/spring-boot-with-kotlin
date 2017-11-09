@@ -9,4 +9,5 @@ interface UserService {
 
     fun findAll(): List<User>
 
+    fun findAll(pageNo: Integer,pageSize: Integer, username: String): List<User>
 }
